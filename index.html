@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>CRM Dashboard Customers</title>
+</head>
+	<body>
+		<div class="wrapper">
+			<div class="wrapper__content">
+				<div class="sidebar">
+					<div class="sidebar__container">
+						<header class="sidebar__header">
+							<div class="header__logo">
+								<img class="header-logo-img" src="./img/sidebar-icon/logotype.svg" alt="logotype Dashboard">
+								<p class="header-logo-text">v.01</p>
+							</div>
+						</header>
+						<nav class="sidebar__menu">
+							<ul>
+								<li>
+									<div class="menu__block">
+										<div class="menu__link">
+											<a href="#" class="">
+												<img src="./img/sidebar-icon/sidebar-navigation-icons/key-square-1.svg"
+													alt="key-square">
+												<p class="menu-text">Dashboard</p>
+											</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="menu__block">
+										<a href="#" class="menu__link">
+											<img src="./img/sidebar-icon/sidebar-navigation-icons/3d-square-2.svg" alt="3d-square">
+											<p class="menu-text">Product</p>
+										</a>
+										<a href="#" class="menu__arrow"></a>
+									</div>
+								</li>
+								<li class="menu__list-activ">
+									<div class="menu__block">
+										<a href="#" class="menu__link">
+											<img src="./img/sidebar-icon/sidebar-navigation-icons/user-square-3.svg"
+												alt="user-square">
+											<p class="menu-text menu-text-activ">Customers</p>
+										</a>
+										<a href="#" class="menu__arrow menu__arrow-white"></a>
+									</div>
+								</li>
+								<li>
+									<div class="menu__block">
+										<a href="#" class="menu__link">
+											<img src="./img/sidebar-icon/sidebar-navigation-icons/wallet-money-4.svg"
+												alt="wallet-money">
+											<p class="menu-text">Income</p>
+										</a>
+										<a href="#" class="menu__arrow"></a>
+									</div>
+								</li>
+								<li>
+									<div class="menu__block">
+										<a href="#" class="menu__link">
+											<img src="./img/sidebar-icon/sidebar-navigation-icons/discount-shape-5.svg"
+												alt="wallet-money">
+											<p class="menu-text">Promote</p>
+										</a>
+										<a href="#" class="menu__arrow"></a>
+									</div>
+								</li>
+								<li>
+									<div class="menu__block">
+										<a href="#" class="menu__link">
+											<img src="./img/sidebar-icon/sidebar-navigation-icons/message-question-6.svg"
+												alt="discount-shape">
+											<p class="menu-text">Help</p>
+										</a>
+										<a href="#" class="menu__arrow"></a>
+									</div>
+								</li>
+								<li>
+							</ul>
+						</nav>
+						<div class="sidebar__person-info person-info__block ">
+							<img class="person-info__photo" src="./img/sidebar-icon/person-photo.jpg" alt="photo user">
+							<div class="person-info__block-text">
+								<p class="person-info__name">Evano</p>
+								<p class="person-info-description">Project Manager</p>
+							</div>
+						</div>
+					</div>
+					<div class="menu__icon">
+						<span></span>
+					</div>
+				</div>
+				<main class="main">
+					<div class="main__block">
+						<h2 class="main__user-name">
+							Hello Evano <span></span>,
+						</h2>
+						<section class="dashboard-list">
+							<div class="dashboard-list__container">
+								<div class="dashboard-list__header">
+									<div class="dashboard-list__header-text">
+										<h2 class="header-text__title">All Customers</h2>
+										<h3 class="header-text__subtitle">Active Members</h3>
+									</div>
+									<div class="dashboard-list__header-search-form">
+										<form action="#" class="form-block">
+											<span class="search-icon"></span>
+											<input type="text" name="search" class="input-search" placeholder="Search">
+										</form>
+									</div>
+								</div>
+								<div class="table-block">
+									<table>
+										<thead>
+											<tr>
+												<th></th>
+												<th>Customer Name</th>
+												<th>Company</th>
+												<th>Phone Number</th>
+												<th>Email</th>
+												<th>Country</th>
+												<th>Status</th>
+												<th></th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td></td>
+												<td>Jane Cooper</td>
+												<td>Microsoft</td>
+												<td>(225) 555-0118</td>
+												<td>jane@microsoft.com</td>
+												<td>United States</td>
+												<td><button class="table-btn-active">Active</button></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td>Floyd Miles</td>
+												<td>Yahoo</td>
+												<td>(205) 555-0100</td>
+												<td>floyd@yahoo.com</td>
+												<td>Kiribati</td>
+												<td><button class="table-btn-inactive">Inactive</button></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td>Ronald Richards</td>
+												<td>Adobe</td>
+												<td>(302) 555-0107</td>
+												<td>ronald@adobe.com</td>
+												<td>Israel</td>
+												<td><button class="table-btn-inactive">Inactive</button></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td>Marvin McKinney</td>
+												<td>Tesla</td>
+												<td>(252) 555-0126</td>
+												<td>marvin@tesla.com</td>
+												<td>Iran</td>
+												<td><button class="table-btn-active">Active</button></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td>Jerome Bell</td>
+												<td>Google</td>
+												<td>(629) 555-0129</td>
+												<td>jerome@google.com</td>
+												<td>Réunion</td>
+												<td><button class="table-btn-active">Active</button></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td>Kathryn Murphy</td>
+												<td>Microsoft</td>
+												<td>(406) 555-0120</td>
+												<td>kathryn@microsoft.com</td>
+												<td>Curaçao</td>
+												<td><button class="table-btn-active">Active</button></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td>Jacob Jones</td>
+												<td>Yahoo</td>
+												<td>(208) 555-0112</td>
+												<td>jacob@yahoo.com</td>
+												<td>Brazil</td>
+												<td><button class="table-btn-active">Active</button></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td>Kristin Watson</td>
+												<td>Facebook</td>
+												<td>(704) 555-0127</td>
+												<td>kristin@facebook.com</td>
+												<td>Åland Islands</td>
+												<td><button class="table-btn-inactive">Inactive</button></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td></td>
+												<td>Kristin Watson</td>
+												<td>Facebook</td>
+												<td>(704) 555-0127</td>
+												<td>kristin@facebook.com</td>
+												<td>Åland Islands</td>
+												<td><button class="table-btn-inactive">Inactive</button></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="table-pagination">
+									<h3 class="pagination-text">
+										Showing data 1 to 8 of 256K entries
+									</h3>
+									<div class="pagination">
+										<a href="#">&lsaquo;</a>
+										<a href="#" class="active">1</a>
+										<a href="#">2</a>
+										<a href="#">3</a>
+										<a href="#">4</a>
+										<a href="#"><span>...</span></a>
+										<a href="#">40</a>
+										<a href="#">&rsaquo;</a>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</main>
+			</div>
+		</div>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
